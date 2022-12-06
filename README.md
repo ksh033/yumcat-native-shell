@@ -4,7 +4,6 @@
 
 Taro 原生 React Native 壳工程，和 React Native init 的工程的区别如下：
 
-
 0. 集成了 [expo](https://docs.expo.dev/bare/installing-expo-modules/)
 1. 集成了 Taro 依赖的所有原生库
 2. debug 方式变更: 在 JS 工程中 `yarn dev:rn` 启动 metro server
@@ -25,6 +24,7 @@ npx install-expo-modules@latest
 ```
 
 3. 修改部分代码以支持 Taro，此部分可以直接 cherry-pick
+
    - [scripts] 修改 `android`, `ios` 脚本，增加 `upgradePeerdeps` 脚本
    - [devDependencies] 增加 `install-peerdeps` 和 `pod-install`
    - [ios] 添加相关 APP 权限说明
@@ -49,6 +49,10 @@ yarn upgradePeerdeps
    - [ios] 添加默认图标
    - [ios] 添加 ITSAppUsesNonExemptEncryption false
    - [ios] 添加 main.jsbundle assets 引用
+
+# 扩展组件
+
+1.react-native-vector-icons 图标
 
 ## React Native 小版本更新
 
