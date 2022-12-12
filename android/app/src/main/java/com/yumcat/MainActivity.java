@@ -1,4 +1,4 @@
-package com.tarodemo;
+package com.yumcat;
 import expo.modules.ReactActivityDelegateWrapper;
 
 import com.facebook.react.ReactActivity;
@@ -13,7 +13,7 @@ public class MainActivity extends ReactActivity {
    */
   @Override
   protected String getMainComponentName() {
-    return "taroDemo";
+    return "yumcat";
   }
 
   /**

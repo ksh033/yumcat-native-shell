@@ -1,4 +1,4 @@
-package com.tarodemo.newarchitecture.components;
+package com.yumcat.newarchitecture.components;
 
 import com.facebook.jni.HybridData;
 import com.facebook.proguard.annotations.DoNotStrip;

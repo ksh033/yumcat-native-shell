@@ -35,12 +35,12 @@ android_library(
 
 android_build_config(
     name = "build_config",
-    package = "com.tarodemo",
+    package = "com.yumcat",
 )
 
 android_resource(
     name = "res",
-    package = "com.tarodemo",
+    package = "com.yumcat",
     res = "src/main/res",
 )
 

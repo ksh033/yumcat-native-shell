@@ -7,7 +7,7 @@ install! 'cocoapods', :deterministic_uuids => false
 
 production = ENV["PRODUCTION"] == "1"
 
-target 'taroDemo' do
+target 'yumcat' do
   use_expo_modules!
   post_integrate do |installer|
     begin
@@ -32,7 +32,7 @@ target 'taroDemo' do
     :app_path => "#{Pod::Config.instance.installation_root}/.."
   )
 
-  target 'taroDemoTests' do
+  target 'yumcatTests' do
     inherit! :complete
     # Pods for testing
   end
